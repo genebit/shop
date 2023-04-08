@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap");
 body {
-    background-color: #e5d9b6;
-    font-family: "Inter", sans-serif;
+	background-color: #e5d9b6;
+	font-family: "Inter", sans-serif;
 }
 h1,
 h2,
@@ -9,26 +9,29 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Playfair Display", serif;
+	font-family: "Playfair Display", serif;
 }
 .navbar-brand {
-    font-family: "Playfair Display", serif;
-    color: #285430;
+	font-family: "Playfair Display", serif;
+	color: #285430;
 }
 .navbar-nav .active {
-    border-bottom: #285430 solid 3px;
+	border-bottom: #285430 solid 3px;
 }
 .hero-section {
-    background: url("../img/shirt.jpg") no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+	background: url("../img/shirt.jpg") no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 }
 .btn-dark-green {
-    background-color: #285430;
-    color: white;
-    text-transform: uppercase;
-    border: none;
-    padding: 10px 20px;
+	background-color: #285430;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+	padding: 10px 20px;
+}
+.btn-danger {
+	padding: 10px 20px;
 }

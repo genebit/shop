@@ -14,5 +14,13 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
+        Product::create(
+            [
+                'user_id' => 2,
+                'product_name' => "Green Coat",
+                'price' => 1599.00,
+                'img' => 'spring.png'
+            ]
+        );
     }
 }

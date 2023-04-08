@@ -16,13 +16,5 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        User::create([
-            'id' => 2,
-            'name' => "Gene Bitara",
-            'email' => "genebitara@gmail.com",
-            'email_verified_at' => Carbon::now(),
-            'password' => Hash::make('password'),
-            'isAdmin' => true
-        ]);
     }
 }
